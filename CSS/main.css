@@ -16,3 +16,13 @@ a:hover{color: var(--mid);}
 /* a:active{color:var(--acc);} */
 #cont{padding: 2em;background-color: var(--bg);}
 ::highlight() {color: var(--acc);}
+@media screen and (max-width: 60rem) {
+  #cont {
+    display: grid;`
+    text-align: left;
+  }
+  #cont a {
+    margin: 0.25em;
+  }
+}
+
