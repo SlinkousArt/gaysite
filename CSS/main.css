@@ -18,7 +18,7 @@ a:hover{color: var(--mid);}
 ::highlight() {color: var(--acc);}
 @media screen and (max-width: 60rem) {
   #cont {
-    display: grid;`
+    display: grid;
     text-align: left;
   }
   #cont a {
